@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+
+# Local configuration
+.env
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE files
+.vscode/
+.idea/
+
+# Sensitive files
+*.pem
+*.key
