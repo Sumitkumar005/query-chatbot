@@ -155,6 +155,21 @@ The chatbot is built using Streamlit for the frontend, Python for the backend, a
 
 ---
 
+## Workflow Diagrams
+
+Visual representation of the project workflow using Miro:
+
+![Miro Workflow 1](screenshot/miro1.jpg)
+*Figure 1: Overview of the chatbot architecture and data flow.*
+
+![Miro Workflow 2](screenshot/miro2.jpg)
+*Figure 2: Detailed process of data ingestion and indexing.*
+
+![Miro Workflow 3](screenshot/miro3.jpg)
+*Figure 3: User interaction flow and admin features.*
+
+---
+
 ## Contributing
 
 Fork, submit issues or pull requests to add features or fix bugs.
