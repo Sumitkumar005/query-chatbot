@@ -44,6 +44,7 @@ Upcoming integrations to enhance security, tracing, and evaluation:
 - **Apex:** Security testing for prompt injection attacks.
 - **LangSmith:** Observability with detailed tracing and monitoring.
 - **IntellAgent:** Automated evaluation with behavioral analysis and metrics.
+- **Intentbased/agentic** AI assistant that learns and adapts to the users.
 
 ---
 
