@@ -1,0 +1,250 @@
+SAMPLE UNIVERSITY - COMPREHENSIVE INFORMATION GUIDE
+
+ABOUT SAMPLE UNIVERSITY
+
+Sample University is a prestigious educational institution founded in 1985, committed to providing world-class education and fostering innovation in research and technology. Located in the heart of the city, our campus spans over 200 acres and houses state-of-the-art facilities for students and faculty.
+
+ACADEMIC PROGRAMS
+
+Undergraduate Programs:
+- Bachelor of Science in Computer Science (4 years)
+- Bachelor of Science in Engineering (4 years) 
+- Bachelor of Business Administration (4 years)
+- Bachelor of Arts in Liberal Arts (4 years)
+- Bachelor of Science in Biology (4 years)
+- Bachelor of Science in Mathematics (4 years)
+
+Graduate Programs:
+- Master of Science in Computer Science (2 years)
+- Master of Business Administration (MBA) (2 years)
+- Master of Engineering (2 years)
+- Master of Science in Data Science (2 years)
+- Doctor of Philosophy (Ph.D.) in various fields (4-6 years)
+
+ADMISSIONS REQUIREMENTS
+
+Undergraduate Admissions:
+- High school diploma or equivalent
+- Minimum GPA of 3.0
+- SAT score of 1200+ or ACT score of 25+
+- Two letters of recommendation
+- Personal statement essay
+- Application fee: $75
+
+Graduate Admissions:
+- Bachelor's degree from accredited institution
+- Minimum GPA of 3.2
+- GRE scores (varies by program)
+- Three letters of recommendation
+- Statement of purpose
+- Application fee: $100
+
+TUITION AND FEES (2024-2025 Academic Year)
+
+Undergraduate (per semester):
+- Tuition: $18,500
+- Room and Board: $8,500
+- Technology Fee: $300
+- Student Activities Fee: $200
+- Total per semester: $27,500
+
+Graduate (per semester):
+- Tuition: $22,000
+- Optional Room and Board: $8,500
+- Technology Fee: $300
+- Total per semester: $22,300
+
+FINANCIAL AID
+
+Sample University offers various financial aid options:
+- Merit-based scholarships (up to $15,000 per year)
+- Need-based grants
+- Federal student loans
+- Work-study programs
+- Graduate assistantships for qualified students
+
+To apply for financial aid, students must complete the FAFSA by March 1st each year.
+
+CAMPUS FACILITIES
+
+Libraries:
+- Central Library (24/7 during finals)
+- Science Library
+- Digital Media Lab
+- Study rooms and group collaboration spaces
+
+Residence Halls:
+- 8 residence halls housing 3,200 students
+- Single and double occupancy rooms
+- Co-ed and single-gender options
+- Meal plans required for first-year students
+
+Dining:
+- 3 dining halls
+- 5 campus cafes
+- Food court in student union
+- Various dietary accommodations available
+
+Recreation:
+- Fitness center with modern equipment
+- Olympic-size swimming pool
+- Tennis courts
+- Intramural sports programs
+- Outdoor recreation center
+
+STUDENT SERVICES
+
+Academic Support:
+- Academic advising for all students
+- Tutoring center (free peer tutoring)
+- Writing center
+- Math help center
+- Disability services
+
+Career Services:
+- Resume and cover letter assistance
+- Interview preparation workshops
+- Job fair events (fall and spring)
+- Internship placement assistance
+- Alumni networking events
+
+Health and Wellness:
+- Campus health center
+- Counseling and psychological services
+- 24/7 crisis support hotline
+- Wellness programs and workshops
+
+RESEARCH OPPORTUNITIES
+
+Sample University encourages undergraduate and graduate research:
+- Summer Research Experience for Undergraduates (REU)
+- Faculty-mentored research projects
+- Annual student research symposium
+- Research grants available for graduate students
+- State-of-the-art research laboratories
+
+CAMPUS LIFE
+
+Student Organizations:
+- Over 150 student clubs and organizations
+- Greek life (12 fraternities and sororities)
+- Student government association
+- Academic honor societies
+- Cultural and international student groups
+
+Athletics:
+- NCAA Division II member
+- 16 varsity sports teams
+- Intramural sports for all students
+- Club sports available
+
+Events and Traditions:
+- Homecoming week celebration
+- Spring festival
+- Annual talent show
+- Guest lecture series
+- Cultural awareness events
+
+CONTACT INFORMATION
+
+Main Campus Address:
+Sample University
+123 University Drive
+College Town, ST 12345
+
+Phone Numbers:
+- Main number: (555) 123-4567
+- Admissions: (555) 123-4568
+- Financial Aid: (555) 123-4569
+- Student Services: (555) 123-4570
+
+Email:
+- General inquiries: info@sampleuniversity.edu
+- Admissions: admissions@sampleuniversity.edu
+- Financial Aid: finaid@sampleuniversity.edu
+
+Website: www.sampleuniversity.edu
+
+IMPORTANT DATES
+
+Fall 2024 Semester:
+- Application deadline: July 1, 2024
+- Classes begin: August 26, 2024
+- Thanksgiving break: November 25-29, 2024
+- Final exams: December 9-13, 2024
+- Semester ends: December 13, 2024
+
+Spring 2025 Semester:
+- Application deadline: November 1, 2024
+- Classes begin: January 13, 2025
+- Spring break: March 10-14, 2025
+- Final exams: May 5-9, 2025
+- Commencement: May 17, 2025
+
+PARKING AND TRANSPORTATION
+
+- Student parking permits: $200 per semester
+- Faculty/staff permits: $300 per semester
+- Visitor parking available (hourly rates)
+- Campus shuttle service (free for students)
+- Bike-sharing program available
+- Public transportation connections to downtown
+
+TECHNOLOGY SERVICES
+
+- Campus-wide WiFi network
+- Computer labs in each academic building
+- 24/7 IT help desk
+- Student email accounts
+- Online learning management system
+- Software licensing for students
+
+STUDY ABROAD PROGRAMS
+
+Sample University offers study abroad opportunities in:
+- Europe: England, France, Germany, Italy, Spain
+- Asia: Japan, South Korea, China
+- Australia and New Zealand
+- Latin America: Costa Rica, Argentina
+- Summer programs: 4-8 weeks
+- Semester programs: 4 months
+- Year-long programs available
+
+ALUMNI NETWORK
+
+- Over 50,000 alumni worldwide
+- Active alumni chapters in major cities
+- Career networking opportunities
+- Mentorship programs
+- Annual alumni giving campaigns
+- Distinguished alumni awards program
+
+This comprehensive guide covers the essential information about Sample University. For specific questions or additional details, please contact the appropriate department using the contact information provided above. 
+
+
+
+
+
+
+
+
+
+
+
+
+A user-friendly chatbot that answers university-related queries using Retrieval-Augmented Generation (RAG), Google Gemini API, and web scraping with Tavily API.
+=======
+# Demo Videos
+
+Watch the demo videos to get started:
+
+- [Part 0](https://www.youtube.com/watch?v=pM2qLKKieYA)
+- [Part 1](https://www.youtube.com/watch?v=DKrvY6mAKjs)
+- [Part 2](https://www.youtube.com/watch?v=uZoPE9b_BDE)
+
+---
+
+# Deployed Application
+
+Try out the live demo of the University Chatbot here:  
+[https://query-chatbot-sumit.streamlit.app/](https://query-chatbot-sumit.streamlit.app/)

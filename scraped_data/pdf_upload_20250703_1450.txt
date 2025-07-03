@@ -1,0 +1,191 @@
+Handbook AI Agent Hackathon Syngenta at Paradox 2025 Austyn Labs Guide May 19, 2025 
+Classification: PUBLIC AAA AI Agent Hackathon 2 Table of Contents Syngenta AI Agent Hackathon 3 1. 
+Timeline 3 2. Registration 3 3. Challenge Overview 4 4. Technical Require ments 4 4.1 Functional 
+Requirements 4 4.2 Non -Functional Requirements 5 4.3 Technology Stack 5 5. Business Scenarios 6 
+5.1 Document -Based Query 6 5.2 Data -Based Query 6 5.3 Hybrid Query 7 5.4 Permission -Restricted 
+Query 7 6. Governance & Access Control 8 6 .1 Geographic Access Control 8 6.2 Role -Based Access 
+Control (RBAC) 9 7. Dataset 9 7.1 Supply Chain Database 9 7.2 Document Repository 9 7.3 Sample 
+Questions 11 8. Evaluation 12 8.1 Business Value (60%) 12 8.2 Technical Execution (40%) 12 9. 
+Submission 13 9.1 Video Presentation 13 9.2 Code Submission 14 10. Questions and Contact 
+Information 14 Syngenta AI Agent Hackathon Welcome to the AI Agent Hackathon. This event 
+challenges you to create intelligent agent applications to improve supply chain operations u sing AI. 
+This handbook provides guidance to help you develop a good solution that meets all requirements. 
+This hackathon invites participants to design advanced AI applications that enhance supply chain 
+operations. Your solution will link document reposito ries with database systems, ensuring proper 
+governance and access controls. Participants will have the opportunity to showcase their technical 
+skills in creating practical AI solutions for business benefits. Successful participants may receive 
+recognition and interview opportunities for Data Scientist positions at Syngenta. 1. Timeline • Start 
+Date: May 19, 2025 • Final Submission Deadline: May 25, 2025 Finalists are expected to be 
+announced approximately 5 to 7 days after the final submission deadline. All  deadlines are at 11:59 
+PM IST on the corresponding day unless otherwise noted. Syngenta reserve the right to update the 
+contest timeline if we deem it necessary. 2. Registration Team Size: 1 -4 participants Institution: Only 
+students from IITM BS Degree ar e eligible to participate How to Register: - Form your team (1 -4 
+members) - Submit registration via Syngenta AI Agent Hackathon Registration - Registration deadline: 
+May 20, 2025 11:59PM IST - Each participant may join only one team 3 AI Agent Hackathon 3.  
+Challenge Overview The Objective of this hackathon is to build an intelligent agent system capable of 
+revolutionizing how supply chain professionals interact with their information ecosystem. The system 
+must seamlessly integrate multiple capabilities to p rovide a unified interface for complex business 
+queries. • Document Processing: The agent must extract key insights from internal documents like 
+policies, procedures, and reports, understanding structure and context. • Database Interaction: It 
+should trans late natural language into optimized SQL queries, understanding table relationships and 
+schema. • Access Control *: To ensure enterprise -grade security, the system must enforce role -based 
+permissions, maintain audit trails, and manage access to sensitive i nformation without disrupting 
+user experience. • External Knowledge Integration *: The system should enhance internal insights by 
+intelligently incorporating relevant and trustworthy external information using web, while ensuring 
+consistency with internal policies. * Access Control and External Knowledge Integration would be 
+nice to have but are not necessary. 4. Technical Requirements The application you develop should 
+function as a sophisticated intelligent assistant that to access information. The system  should 
+encompass: 4.1 Functional Requirements • Natural Language Understanding: Your application should 
+be able to comprehend questions, including those with unclear requests and specialized terminology. 
+• Intent Determination: Accurately identify the typ e of request, whether it involves document based 
+knowledge, data analysis, or both. • Information Retrieval: Find and pull relevant information from 
+documents or databases, recognizing and combining information from multiple sources. 4 AI Agent 
+Hackathon •  Governance Enforcement: Ensure users access the correct information by applying 
+access -control frameworks and clearly explaining any restrictions. • Insight Generation: Turn raw 
+data into useful insights through contextual analysis, identifying trends, an d comparing information. 
+Graphical visualizations would be a nice -to have feature. • Memory: The application should support 
+short -term memory for subsequent questions in a chat, allowing it to remember context and provide 
+coherent answers. Having long -term  memory for retaining user preferences and interactions would be a nice -to-have feature. 4.2 Non -Functional Requirements • Performance: The application should 
+provide real -time responses with minimal latency and optimized token usage, ensuring a smooth 
+user experience. • Security: Robust security measures should be i n place to protect sensitive and PII 
+to ensure compliance with data protection regulations. • Usability: The user interface should be 
+intuitive and user -friendly, making it easy for users to interact with the application and access the 
+information they nee d. • Maintainability: It would be nice to have a system designed for easy 
+maintenance and updates, allowing for the addition of new features and improvements over time. 
+4.3 Technology Stack We encourage all participants to freely explore and choose their p referred tech 
+stack. Your submission will be evaluated on creativity, innovation, and the effectiveness of your 
+solution, not the specific tools you use. Below are some commonly used technologies across 
+different components of the application. You’re welco me to go beyond these suggestions: API: 
+FastAPI^, NextJS, Flask, Fastify, Hono, Express.js Frontend: NextJS^, VueJS, React Database: 
+Postgres^, MySQL, Oracle AI/Agent Frameworks: Langchain^, AI SDK^, LlamaIndex Large Language 
+Models (LLM): GPT 4.1^, Claude  3.5 Sonnet^, Claude 3.7 Sonnet^, Llama 3.1 Embedding Models: 
+Embed 4^, text -embedding -3-large 5 AI Agent Hackathon ^ These tools/models are either 
+recommended or have special support (e.g., credits or access) for this hackathon. All participants will 
+rece ive API credits and access to OpenAI's GPT -4o for use during the hackathon. You're also welcome 
+to use other models and providers — including open -source or hosted solutions — as long as your 
+application meets the requirements. More details on model access  will be shared during the kick -off 
+call. 5. Business Scenarios This section illustrates real -world questions that users might ask the AI -
+powered application during supply chain operations. Each scenario demonstrates how the system 
+should behave when handl ing queries involving documents, databases, or a mix of both —while also 
+respecting organizational policies like access control. These examples are designed to help 
+participants understand the range of use cases, system expectations, and how business logic can be 
+operationalized through intelligent agents. 5.1 Document -Based Query User Query: “What is our 
+company policy on inventory write -offs?” The system should interpret that the user needs 
+information from internal policy documents. It must: - Locate rele vant policy documents. - Extract 
+the section covering inventory write -offs. - Summarize the answer with references to the original 
+content. - Optionally, provide more detailed excerpts if the user asks. 5.2 Data -Based Query User 
+Query: "How much inventory do we currently have in the Southwest region?" The system should: - 
+Understand that this requires live data retrieval. - Generate the correct SQL query to fetch inventory 
+filtered by region. - Run the query and return results in plain, human -readable form.  6 AI Agent 
+Hackathon - Provide contextual information such as total units or percentage of total inventory. 5.3 
+Hybrid Query User Query: "Which inventory items qualify as no -movers according to our policy, and 
+how many do we currently have?" This query in volves both documents and data. The system should: 
+- Retrieve the definition of "no -mover" inventory from policy documents. - Extract conditions (e.g., 
+"no stock movement in 180 days"). - Generate a SQL query using those conditions. - Run the query 
+and rep ort how many items qualify, along with an explanation of the criteria used. 5.4 Permission -
+Restricted Query User Query: "Show me the profit margins for all products in Q1." This query 
+accesses sensitive financial data. The system should: 7 AI Agent Hackath on - Check if the user has 
+permission to view financial metrics. - If access is granted, proceed with the SQL query and return 
+results. - If not, inform the user that access is restricted and suggest alternative queries. - Log the 
+access request for auditi ng purposes. 6. Governance & Access Control While not mandatory, 
+implementing governance and access control mechanisms demonstrates a strong understanding of 
+enterprise -grade AI systems and significantly enhances your solution's credibility. In real -world 
+enterprise systems, sensitive information must be protected based on who the user is, what their 
+role is, and where they are authorized to operate. Participants are encouraged to simulate or 
+implement mechanisms that respect both geographic boundaries and functional roles. 6.1 Geographic Access Control Users should only access data relevant to the countries or regions they 
+are authorized for. For example: • A user assigned to India should only be able to view Indian supply 
+chain data. • A Global Operations Manager can view data across all countries and regions. 8 AI Agent 
+Hackathon 6.2 Role -Based Access Control (RBAC) Access should also be filtered based on 
+organizational roles: A user in the Planning department can access inventory, logistics, and 
+forecasting data. A user in Fin ance can access margin reports, cost breakdowns, and P&L data. Cross -
+role access should be explicitly authorized, not implicit. Implementation Tip: Maintain a user 
+metadata profile with role and region. Apply filters queries or document retrieval logic bas ed on this 
+metadata. You can simulate this with a basic config or through API tokens. 7. Dataset We have two 
+distinct types of datasets that must be integrated in your intelligent agent solution: • Structured 
+Database: A relational database containing supp ly chain transaction data with interconnected tables 
+showing orders, customers, products, and related information. • Document Repository: A collection 
+of policy documents, guidelines, and procedures that contain qualitative information about how 
+supply cha in operations should be conducted. These documents establish the rules, definitions, and 
+processes that govern business decisions. Your intelligent agent solution must be capable of working 
+with both data types - extracting insights from structured databas e tables as well as unstructured 
+policy documents - and intelligently combining information from both sources when necessary to 
+provide complete answers to business questions. 7.1 Supply Chain Database The database consists of 
+roughly 180,000 transactions from supply chains used by DataCo Global over a 3 -year period. This 
+dataset represents a comprehensive view of supply chain operations across multiple dimensions. 
+Link: https://www.kaggle.com/datasets/saicharankomati/dataco -supply -chain -dataset 7.2 Documen t 
+Repository The document repository contains the following policy and procedure documents: 9 AI 
+Agent Hackathon - Inventory Management - Obsolete Inventory Handling - Health, Safety, and 
+Environment (HSE) in the Supply Chain - Supplier Selection and Quali fication - Supplier Code of 
+Conduct (Ethical Sourcing) - Supplier Relationship Management - Sourcing and Procurement Practices 
+- Capacity Planning - Demand Forecasting and Planning - Order Management - Transportation and 
+Logistics Management - Warehouse an d Storage Policy - Returns and Reverse Logistics - Risk 
+Management and Mitigation - Business Continuity and Disaster Recovery - Trade Compliance and 
+Regulatory Adherence - Anti-Counterfeit and Product Authenticity - Data Security and Cybersecurity - 
+Enviro nmental Sustainability (Green Supply Chain) - Circular Economy and Waste Reduction - 
+Performance Measurement and KPIs - Technology Adoption (e.g., IoT, Blockchain) - Change 
+Management in Supply Chain Processes - Cost Reduction and Efficiency - Contract Man agement and 
+Negotiation - Communication and Crisis Management - Labor Standards and Fair Labor Practices - 
+Diversity and Inclusion in Supplier Base - Continuous Improvement and Innovation - Product Quality 
+Assurance and Control Link: https://www.kaggle.com /datasets/sghhim/dataco -global -policy -dataset 
+10 AI Agent Hackathon 7.3 Sample Questions Here are some sample questions of varying complexity 
+that users might ask the system: - What is the total sales amount for all orders? - What is our 
+company's definiti on of slow -moving inventory according to the Inventory Management policy? - 
+What are the required steps for handling obsolete inventory write -offs? - What sustainability 
+practices should our logistics partners follow according to our Environmental Sustaina bility policy? - 
+What criteria do we use to qualify new suppliers based on our Supplier Selection policy? - How does 
+our Returns and Reverse Logistics policy handle customer claims for damaged products? - What are 
+the key performance indicators for measuri ng supplier performance as defined in our Performance 
+Measurement policy? - What cyber security measures must be implemented to protect supply chain 
+data according to our Data Security policy? - What was the total sales amount for the Southwest 
+region in t he last quarter? - Which products have the highest profit margin across all categories? - 
+Which shipping mode has the lowest rate of on -time deliveries? - Who are our top 10 customers by 
+total order value? - What is the average time between order date and shipping date by country? - Which product categories have shown declining sales over the past three quarters? - What is the 
+distribution of orders by customer segment and region? - Which inventory items qualify as "no -
+movers" according to our policy, and what is their total current v alue? - Are there any suppliers who 
+don't meet our minimum ethical sourcing requirements as defined in our Supplier Code of Conduct, 
+and what percentage of our total spend do they represent? - Based on our Product Quality Assurance 
+standards, which product s had the highest number of quality -related returns in the past year? - 
+According to our Transportation and Logistics policy, are we using the optimal shipping modes for 
+high -value orders to international destinations? - Which products that are classified as "hazardous 
+materials" according to our HSE policy are currently being stored in facilities not certified for such 
+materials? 11 AI Agent Hackathon - Based on our Risk Management framework, which supply chain 
+disruptions occurred in the past year that ex ceeded our defined risk tolerance thresholds, and what 
+was their financial impact? 8. Evaluation Solutions will be evaluated based on a combination of 
+business value and technical execution. The primary focus will be on how effectively your solution 
+addres ses real -world business needs while maintaining technical excellence. 8.1 Business Value 
+(60%) - Answer Quality and Accuracy (20%): Solutions must provide correct, relevant information 
+that precisely addresses user queries. Answers should demonstrate deep understanding of both the 
+question intent and business context. - Actionable Business Insights (15%): Responses should offer 
+clear, actionable intelligence that enables better decision -making. The system should not just answer 
+questions but provide context ual information that adds business value. - User Experience (15%): The 
+interface should be intuitive and business -friendly, requiring minimal technical knowledge to operate 
+effectively. Solutions should demonstrate a smooth conversation flow with appropria te follow -up 
+capabilities. - Business Scenario Coverage (10%): Solutions will be tested against various supply chain 
+scenarios outlined in section 5, evaluating how comprehensively they handle different query types 
+and complexity levels. 8.2 Technical Exec ution (40%) • Query Processing (15%): - SQL queries must be 
+syntactically correct, optimized, and produce accurate results - Document retrieval must select only 
+relevant documents and summarize them accurately - Hybrid queries should seamlessly integrate 
+information from both sources • Performance Metrics (15%): - Response latency and processing time 
+- Token efficiency and resource utilization - Handling of complex queries within reasonable time 
+frames 12 AI Agent Hackathon • Implementation of Governance (1 0%): - Effective role -based and/or 
+geographic access controls - Clear communication of access restrictions - Proper handling of sensitive 
+information The evaluation team will use internal benchmarks and parameters to assess technical 
+performance aspects in cluding but not limited to information retrieval depth, response coherence, 
+and system robustness. Solutions that demonstrate exceptional business value while maintaining 
+strong technical performance will be ranked highest. 9. Submission Participants are r equired to 
+submit their solutions through multiple channels to ensure comprehensive evaluation. Please follow 
+these guidelines carefully to ensure your submission is considered for the hackathon. 9.1 Video 
+Presentation Create a 10 -minute video presentation  with the following structure: • Team 
+Introduction (2 minutes) - Introduce team members and their roles - Brief background and relevant 
+experience • Solution Explanation (3 minutes) - Technical architecture overview - Key features and 
+innovations - Challen ges faced and solutions implemented • Live Demonstration (3 minutes) - 
+Working demonstration of your AI agent - Showcase key functionalities across different query types - 
+Highlight any special features or innovations • Performance Metrics Showcase (2 minu tes) 13 AI 
+Agent Hackathon - Demonstrate performance metrics for: - Document -based queries (response time, 
+accuracy) - Database queries (SQL execution time, result accuracy) - Hybrid queries (total processing 
+time, integration efficiency) - Show logging/mo nitoring implementation - Present token usage 
+statistics - Compare metrics across different query types 9.2 Code Submission • GitHub Repository: 
+Host your entire project codebase on a GitHub repository with clear documentation. • Nice to have: 
+A hosted/dep loyed version of your application for easy evaluation. Submit your project through this form: Syngenta AI Hackathon Submission 10. Questions and Contact Information For any questions 
+regarding the hackathon, please feel free to email: himanshu.singh 4@syngenta.com **** 14 AI 
+Agent Hackathon Syngenta www.syngenta.com © 2025 Syngenta, Pune, Ind ia. All rights reserved.  

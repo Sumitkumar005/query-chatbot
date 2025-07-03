@@ -1,6 +1,24 @@
+# Demo Videos
+
+Watch the demo videos to get started:
+
+- [Part 0](https://www.youtube.com/watch?v=pM2qLKKieYA)
+- [Part 1](https://www.youtube.com/watch?v=DKrvY6mAKjs)
+- [Part 2](https://www.youtube.com/watch?v=uZoPE9b_BDE)
+
+---
+
+# Deployed Application
+
+Try out the live demo of the University Chatbot here:  
+[https://query-chatbot-sumit.streamlit.app/](https://query-chatbot-sumit.streamlit.app/)
+
+---
+
 # University Chatbot
 
 A user-friendly chatbot that answers university-related queries using Retrieval-Augmented Generation (RAG), Google Gemini API, and web scraping with Tavily API.
+
 
 ---
 
@@ -143,7 +161,4 @@ Fork, submit issues or pull requests to add features or fix bugs.
 
 ---
 
-## License
-
-MIT License — free to use and modify.
 
