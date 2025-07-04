@@ -66,7 +66,7 @@ The chatbot is built using Streamlit for the frontend, Python for the backend, a
 
 1. Clone the repo:
    ```
-   git clone https://github.com/sumitkumar005/chatbot.git
+   git clone https://github.com/sumitkumar005/query-chatbot.git
    cd chatbot
    ```
 
